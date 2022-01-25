@@ -1,0 +1,39 @@
+@import "~antd/dist/antd.css";
+
+.footer {
+  overflow-y: visible;
+  padding: 0px 0px;
+  margin-top:940px;
+  margin-bottom: 0px;
+  box-shadow: 0 0 1px #555c61;
+  background-color: #142028;
+  /* border: 1px solid  */
+  height:78px;
+  text-align: center;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  display:flex;
+  flex-direction:row;
+}
+
+.footerIcons {
+  height: 279px;
+  margin-left:106px;
+  margin-top:0px;
+  filter: grayscale(50%);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.footerIcons:hover {
+  filter: grayscale(100%);
+  opacity: 1;
+}
+a {
+  color: #00b8d8;
+  text-decoration: none;
+  background-color: transparent;
+}
+@media (max-width: 1000px) {
+  
+}

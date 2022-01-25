@@ -1,0 +1,12 @@
+.dashboard{
+    height:100%;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+font.dashboard_fore{
+    color: white;
+}

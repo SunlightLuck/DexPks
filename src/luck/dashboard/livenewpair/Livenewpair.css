@@ -1,0 +1,43 @@
+@import "~antd/dist/antd.css";
+
+.dextboard {
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+}
+.coltemplate{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+.dextpanel {
+    display: flex;
+    flex: 1;
+    background-color: #142028;
+    color: white;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.dashboard_fore {
+    color:white;
+}
+
+.dextHotPairNo1{
+    color:white;
+    background-color:"#23323c"
+}
+.statsPanelClose{
+    width:30px;
+    height:30px;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+    opacity: 0.8;
+    cursor: pointer;
+    /* background: #23323c; */
+    color:#818EA4;
+}

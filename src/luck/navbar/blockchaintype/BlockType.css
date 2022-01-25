@@ -1,0 +1,24 @@
+.blockFrame {
+  position: absolute;
+  top: 15px;
+  z-index: 5;
+  border-radius: 15px;
+  overflow-y:hidden;
+}
+.chevronDown{
+  position: absolute;
+  top:18px;
+  z-index: 10;
+  cursor: pointer;
+}
+.block {
+    width: 130px;
+    height: 36px;
+    padding-left: 3px;
+    display: flex;
+    line-height: 36px;
+    color: white;
+    background-color: #23323c;
+    outline: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,25 @@
+.exchangeFrame {
+  /* position: absolute; */
+  /* top: 15px; */
+  z-index: 5;
+  border-radius: 15px;
+  overflow:hidden;
+}
+.chevronDown{
+  position: absolute;
+  top:18px;
+  z-index: 10;
+  cursor: pointer;
+}
+.exchange {
+    height: 36px;
+    padding-right: 15px;
+    padding-left:5px;
+    display: flex;
+    border-radius: 36px;
+    line-height: 36px;
+    color: white;
+    background-color: #23323c;
+    outline: none;
+    cursor: pointer;
+  }

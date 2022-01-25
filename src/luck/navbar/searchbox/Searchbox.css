@@ -1,0 +1,39 @@
+.search {
+    width: 416px;
+    height: 36px;
+    position: center;
+    display: flex;
+    border-radius: 36px;
+    color: #818ea3;
+    outline: none;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 0px;
+    padding-left: 35px;
+    height: 36px;
+    border-radius: 36px;
+    outline: none;
+    /*  */
+    background: #23323c;
+    text-align: left;
+  }
+  ::placeholder {
+    color: #818ea3;
+    padding-left: 0px;
+  }
+  /* .searchTerm:focus {
+    background: #23323c;
+  } */
+  
+
+  /*Resize the wrap to see the search bar change!*/
+  .wrap {
+    width: 30%;
+    position: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
